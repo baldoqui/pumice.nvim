@@ -17,7 +17,7 @@ M.setup = function()
 		Constant = { fg = colors.constant },
 		String = { fg = colors.constant },
 
-		["@lsp.typemod.variable.declaration"] = { fg = colors.var_declaration },
+		["@lsp.mod.declaration"] = { fg = colors.var_declaration, bold = true },
 		["@lsp.typemod.function.declaration"] = { fg = colors.function_declaration, bold = true },
 	}
 end
