@@ -20,6 +20,8 @@ M.setup = function()
 
 		["@lsp.mod.declaration"] = { fg = colors.var_declaration, bold = true },
 		["@lsp.typemod.function.declaration"] = { fg = colors.function_declaration, bold = true },
+		["@lsp.mod.definition"] = { link = "@lsp.mod.declaration" },
+		["@lsp.typemod.function.definition"] = { link = "@lsp.typemod.function.declaration" },
 	}
 end
 
